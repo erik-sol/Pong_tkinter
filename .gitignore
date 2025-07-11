@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Venv
+.venv/
+env/
+ENV/
+venv/
