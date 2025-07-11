@@ -51,7 +51,6 @@ A fenti kép a játék indulási állapotát mutatja, ahol a piros négyzet a la
 
 📝 Licenc
 Ez a projekt nyílt forráskódú. Terjeszthető, másolható, módosítható az MIT licenc feltételei szerint.
-(LICENSE fájlt külön érdemes hozzáadni.)
 
 👨‍💻 Szerző
 Készült saját tanulási és szórakozási célból.
