@@ -14,17 +14,21 @@ A játék célja, hogy az alsó ütő segítségével minél tovább pattintsd v
 
 ```bash
 python gui.py
+```
 
+---
 
-⌨️ Irányítás
-⬅️ Balra mozgás: Left nyíl
+## ⌨️ Irányítás
 
-➡️ Jobbra mozgás: Right nyíl
+- ⬅️ Balra mozgás: `Left` nyíl  
+- ➡️ Jobbra mozgás: `Right` nyíl  
+- ⏯️ Indítás / Szünet: `Space`  
 
-⏯️ Indítás / Szünet: Space
+---
 
-🧠 Játékszabályok
-A játék alapértelmezetten szünetel, nyomj Space-t az indításhoz.
+## 🧠 Játékszabályok
+
+A játék alapértelmezetten szünetel, nyomj `Space`-t az indításhoz.
 
 A piros négyzet a labda, a fekete téglalapok pedig az ütő.
 
@@ -34,24 +38,37 @@ Ha minden életed elfogy, megjelenik egy "Game Over" ablak.
 
 A labda pattog a falakról, az ütőről, valamint pontot szerezhetsz extra szögekkel való eltalálásért is.
 
-🗂️ Fájlok
-Fájlnév	Leírás
-gui.py	Tkinter alapú grafikus felület és fő ciklus
-pong.py	A játék logikája (ütő, labda, pálya, pontszám)
-requirements.txt	Függőségek (jelenleg üres)
-.gitignore	Git által kizárt fájlok listája
-screenshot.png	Képernyőkép a játékról
-README.md	Ez a fájl
+---
 
-🖼️ Képernyőkép
-A játék futás közben így néz ki:
+## 🗂️ Fájlok
+
+| Fájlnév           | Leírás                                             |
+|-------------------|----------------------------------------------------|
+| `gui.py`          | Tkinter alapú grafikus felület és fő ciklus        |
+| `pong.py`         | A játék logikája (ütő, labda, pálya, pontszám)     |
+| `requirements.txt`| Függőségek (jelenleg üres)                         |
+| `.gitignore`      | Git által kizárt fájlok listája                    |
+| `screenshot.png`  | Képernyőkép a játékról                             |
+| `README.md`       | Ez a fájl                                          |
+
+---
+
+## 🖼️ Képernyőkép
+
+A játék futás közben így néz ki:  
 ![Pong_tkinter_screenshot](./screenshot.png)
 
 A fenti kép a játék indulási állapotát mutatja, ahol a piros négyzet a labda, a fekete téglalapok pedig az ütő.
 
-📝 Licenc
+---
+
+## 📝 Licenc
+
 Ez a projekt nyílt forráskódú. Terjeszthető, másolható, módosítható az MIT licenc feltételei szerint.
 
-👨‍💻 Szerző
-Készült saját tanulási és szórakozási célból.
+---
+
+## 👨‍💻 Szerző
+
+Készült saját tanulási és szórakozási célból.  
 Ha szeretnél hozzájárulni vagy ötleted van, nyugodtan nyiss issue-t vagy pull request-et!
