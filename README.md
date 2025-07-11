@@ -45,7 +45,7 @@ README.md	Ez a fájl
 
 🖼️ Képernyőkép
 A játék futás közben így néz ki:
-![alt text](image.png)
+![Pong_tkinter_screenshot](./screenshot.png)
 
 A fenti kép a játék indulási állapotát mutatja, ahol a piros négyzet a labda, a fekete téglalapok pedig az ütő.
 
